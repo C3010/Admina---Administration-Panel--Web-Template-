@@ -1,0 +1,47 @@
+* {
+	outline: none !important;
+}
+
+html, body {
+	height: 100%;
+	position: relative;
+}
+
+body {
+	cursor: default;
+	background: #f9f9f9;
+	color: #667585;
+	font-family: 'Open Sans', arial, sans-serif;
+}
+
+a {
+	color: #3747a4;
+
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	transition: all .4s;
+}
+
+a:hover {
+	color: #5767c7;
+}
+
+.before-run {
+	display: none;
+}
+
+.full-height {
+	height: 100%;
+	position: relative;
+}
+
+.va-table {
+	display: table;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.va-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
