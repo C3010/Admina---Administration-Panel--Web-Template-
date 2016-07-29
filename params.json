@@ -1,0 +1,6 @@
+{
+  "name": "Admina",
+  "tagline": "This is a modern administration panel template (currently only with login).",
+  "body": "# Admina - Administration Panel (Web Template)\r\n----\r\n\r\nThis is a modern responsive administration panel template (currently only with login).\r\n\r\n### Version\r\n----\r\n1.0\r\n\r\n### Installation\r\n----\r\n\r\n```sh\r\n$ git clone [https://github.com/C3010/Admina---Administration-Panel--Web-Template-] admina\r\n```\r\n\r\n### Pages\r\n----\r\n\r\n* Login\r\n\r\n### Screenshot\r\n---\r\n\r\n![Screen](http://image.prntscr.com/image/8f523aa7739f45f1b28076ac872d6464.png)\r\n\r\n### Used\r\n----\r\n\r\n* Bootstrap\r\n* jQuery\r\n\r\n### Todos\r\n----\r\n\r\n - Main pages\r\n\r\n### Credits\r\n----\r\n\r\nCandan T. (C3O / Can)\r\n\r\n### License\r\n----\r\n\r\nMIT\r\n\r\n\r\n**Free Software, yeah!**\r\n\r\n   [dill]: <https://github.com/C3010/Admina---Administration-Panel--Web-Template->\r\n   [git-repo-url]: <https://github.com/C3010/Admina---Administration-Panel--Web-Template-.git>\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
