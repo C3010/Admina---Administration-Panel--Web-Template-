@@ -1,7 +1,7 @@
 # Admina - Administration Panel (Web Template)
 ----
 
-This is a modern administration panel template (currently only with login).
+This is a modern responsive administration panel template (currently only with login).
 
 ### Version
 ----
