@@ -1,14 +1,14 @@
 body {
-	background: #f9f9f9;
-	color: #667585;
+	background: var(--background);
+	color: var(--color);
 }
 
 a {
-	color: #3747a4;
+	color: var(--link-color);
 }
 
 a:hover {
-	color: #5767c7;
+	color: var(--link-hover-color);
 }
 
 .logo {
@@ -24,18 +24,23 @@ a:hover {
 	margin: 0 auto;
 }
 
+.single-login-width {
+	width: 400px;
+	margin: 0 auto;
+}
+
 .login-box {
 	padding: 35px;
 
-	background: #ffffff;
+	background: var(--login-box-background);
 
-	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .10);
-	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, .10);
-	box-shadow: 0 0 7px rgba(0, 0, 0, .10);
+	-webkit-box-shadow: var(--login-box-shadow);
+	-moz-box-shadow: var(--login-box-shadow);
+	box-shadow: var(--login-box-shadow);
 
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	-webkit-border-radius: var(--border-radius);
+	-moz-border-radius: var(--border-radius);
+	border-radius: var(--border-radius);
 }
 
 .footer {
@@ -52,7 +57,7 @@ a:hover {
 }
 
 .form-group > label {
-	color: #424242;
+	color: var(--form-group-label-color);
 	text-transform: uppercase;
 	font-size: 7pt;
 	padding-left: 10px;
@@ -68,14 +73,14 @@ a:hover {
 	font-weight: 600;
     line-height: normal;
 
-    color: #7f7f7f;
-    background: #f2f2f2;
+    color: var(--form-control-color);
+    background: var(--form-control-background);
 
     border: none;
 
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	-webkit-border-radius: var(--border-radius);
+	-moz-border-radius: var(--border-radius);
+	border-radius: var(--border-radius);
 
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -99,13 +104,13 @@ a:hover {
 
 .form-control:hover,
 .form-control:focus {
-	background: #f5f5f5;
+	background: var(--form-control-hover-background);
 }
 
 .btn {
 	padding: 16px;
-	color: #222222;
-	background: #f0f0f0;
+	color: var(--button-color);
+	background: var(--button-background);
 	text-align: center;
 	text-transform: uppercase;
 	text-shadow: none;
@@ -114,20 +119,20 @@ a:hover {
 .btn:hover,
 .btn:active,
 .btn:focus {
-	color: #222222;
-	background: #eaeaea;
+	color: var(--button-hover-color);
+	background: var(--button-hover-background);
+}
+
+.btn-primary {
+	color: var(--button-primary-color);
+	background: var(--button-primary-background);
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-	color: #ffffff;
-	background: #4a5bc0;
-}
-
-.btn-primary {
-	color: #ffffff;
-	background: #3747a4;
+	color: var(--button-primary-hover-color);
+	background: var(--button-primary-hover-background);
 }
 
 .login-btn {
@@ -144,11 +149,11 @@ a:hover {
 	font-size: 8pt;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #a2a2a2;
+	color: var(--forgot-password-link-color);
 }
 
 .forgot-password > a:hover {
-	color: #c3c3c3;
+	color: var(--forgot-password-link-hover-color);
 }
 
 .forgot-password > a:hover,
@@ -166,7 +171,7 @@ a:hover {
 }
 
 .login-or-span > span {
-	color: #d8d8d8;
+	color: var(--login-or-span-color);
 	font-size: 9pt;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -198,18 +203,18 @@ a:hover {
 
 .sn-btn > i {
 	width: 50px;
-	background: rgba(0, 0, 0, .3);
+	background: var(--btn-sn-icon-background);
 	text-align: center;
 	font-size: 14pt;
 	padding-top: 1px;
 
-	-webkit-border-top-left-radius: 2px;
-	-moz-border-top-left-radius: 2px;
-	border-top-left-radius: 2px;
+	-webkit-border-top-left-radius: var(--border-radius);
+	-moz-border-top-left-radius: var(--border-radius);
+	border-top-left-radius: var(--border-radius);
 
-	-webkit-border-bottom-left-radius: 2px;
-	-moz-border-bottom-left-radius: 2px;
-	border-bottom-left-radius: 2px;
+	-webkit-border-bottom-left-radius: var(--border-radius);
+	-moz-border-bottom-left-radius: var(--border-radius);
+	border-bottom-left-radius: var(--border-radius);
 }
 
 .sn-btn > span {
@@ -217,51 +222,51 @@ a:hover {
 }
 
 .sn-btn-fb {
-	background: #3b5998;
+	background: var(--btn-sn-facebook-background);
 }
 
 .sn-btn-fb:hover,
 .sn-btn-fb:focus,
 .sn-btn-fb:active {
-	background: #4d6bab;
+	background: var(--btn-sn-facebook-hover-background);
 }
 
 .sn-btn-tw {
-	background: #55acee;
+	background: var(--btn-sn-twitter-background);
 }
 
 .sn-btn-tw:hover,
 .sn-btn-tw:focus,
 .sn-btn-tw:active {
-	background: #67b8f6;
+	background: var(--btn-sn-twitter-hover-background);
 }
 
 .sn-btn-gplus {
-	background: #dd4b39;
+	background: var(--btn-sn-googleplus-background);
 }
 
 .sn-btn-gplus:hover,
 .sn-btn-gplus:focus,
 .sn-btn-gplus:active {
-	background: #ee604e;
+	background: var(--btn-sn-googleplus-hover-background);
 }
 
-.checkbox > label {
+.checkbox label {
 	font-weight: 600;
 }
 
 .checkbox > span {
 	position: relative;
 	display: inline-block;
-	background: #f2f2f2;
+	background: var(--form-control-background);
 
 	width: 26px;
 	height: 26px;
 	padding: 3px;
 
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	-webkit-border-radius: var(--border-radius);
+	-moz-border-radius: var(--border-radius);
+	border-radius: var(--border-radius);
 }
 
 .checkbox input[type="checkbox"] {
@@ -281,8 +286,8 @@ a:hover {
     z-index: 1;
     width: 20px;
     height: 20px;
-    border: 2px solid #f2f2f2;
-	border-radius: 2px;
+    border: 2px solid var(--form-control-background);
+	border-radius: var(--border-radius);
 }
 
 .checkbox input[type="checkbox"]:checked:before {
@@ -293,7 +298,7 @@ a:hover {
     transform: rotate(-45deg);
 
 	height: 10px;
-    border-color: #3747a4;
+    border-color: var(--checkbox-checked-color);
 	border-width: 3px;
     border-top-style: none;
     border-right-style: none;
@@ -306,14 +311,14 @@ a:hover {
     left: 0;
     width: 20px;
     height: 20px;
-    background: #f2f2f2;
+    background: var(--form-control-background);
     cursor: pointer;
 }
 
 .alert {
-	-webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+	-webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -321,27 +326,28 @@ a:hover {
     font-weight: 600;
 	font-size: 9pt;
 
-	background: #3747a4;
+	background: var(--alert-background);
 	color: white;
 }
 
 .alert-danger {
-	background: #ff4a4a;
+	background: var(--alert-danger-background);
 }
 
 .alert-info {
-	background: #3d92d3;
+	background: var(--alert-info-background);
 }
 
 .alert-warning {
-	background: #ff831a;
+	background: var(--alert-warning-background);
 }
 
 .alert-success {
-	background: #47d752;
+	background: var(--alert-success-background);
 }
 
 @media (max-width: 800px) {
+	.single-login-width,
 	.login-width {
 		width: 100%;
 		margin: 0 auto;
@@ -369,7 +375,7 @@ a:hover {
 	}
 
 	.logo {
-		background: url('../../../images/logo@2x.png') 50% no-repeat;
+		background: url('../../../images/logo@2x.png') 50% no-repeat !important;
 		width: 72px;
 		height: 72px;
 	}
@@ -387,6 +393,6 @@ a:hover {
 		text-align: center;
 		font-size: 16pt;
 		text-transform: uppercase;
-		color: #1e3651;
+		color: var(--logo-mobile-color);
 	}
 }
