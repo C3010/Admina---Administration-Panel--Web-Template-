@@ -1,4 +1,4 @@
-# Admina---Administration-Panel--Web-Template-
+# Admina - Administration Panel (Web Template)
 ----
 
 This is a modern administration panel template (currently only with login).
