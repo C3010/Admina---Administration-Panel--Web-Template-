@@ -32,7 +32,6 @@
 		<link rel="stylesheet" type="text/css" href="../assets/vendor/jquery-tooltipster/tooltipster-theme.css" />
 
 		<!-- Site -->
-		<link rel="stylesheet" type="text/css" href="../assets/css/site/colors/default.css" />
 		<link rel="stylesheet" type="text/css" href="../assets/css/site/animations.css" />
 		<link rel="stylesheet" type="text/css" href="../assets/css/site/style.css" />
 
@@ -60,24 +59,42 @@
 				<section>
 					<section class="h-box stretch">
 						<header class="bg-primary box-shadow-bottom header header-md navbar navbar-fixed-top-xs">
-							<ul class="nav navbar-nav hidden-xs">
-								<li>
-									<a href="#sidebar" class="navbar-brand navbar-h-w nav-line" data-toggle="class:nav-xs">
+							<ul class="nav navbar-nav animated fadeInLeft">
+								<li class="hidden-xs">
+									<a href="#sidebar" class="navbar-brand navbar-h-w nav-line tooltip-bottom" title="Toggle navigation" data-toggle="class:nav-xs">
 										<i class="ion ion-navicon"></i>
 									</a>
 								</li>
 
-								<li>
-									<a href="javascript:void(0);" class="navbar-brand navbar-h-w nav-line" data-toggle="fullscreen">
+								<li class="hidden-xs">
+									<a href="javascript:void(0);" class="navbar-brand navbar-h-w nav-line tooltip-bottom" title="Fullscreen" data-toggle="fullscreen">
 										<i class="ion ion-arrow-expand"></i>
 									</a>
 								</li>
 							</ul>
 
-							<ul class="nav nav-right navbar-nav">
+							<ul class="nav nav-right navbar-nav animated fadeInRight">
+								<li class="dropdown">
+									<a href="javascript:void(0);" class="navbar-brand navbar-h nav-line dropdown-toggle" id="dropdown-languages" data-toggle="dropdown">
+										<span>English <i class="ion-chevron-down m-l-sm"></i></span>
+									</a>
+									<ul class="dropdown-menu border-t-n pull-right animated fadeInRight" aria-labelledby="dropdown-languages">
+										<li>
+											<a href="javascript:void(0);">
+												<span>Deutsch</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">
+												<span>Türkçe</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+
 								<li class="dropdown">
 									<a href="javascript:void(0);" class="navbar-brand navbar-h nav-line dropdown-toggle" data-toggle="dropdown">
-										<span>Deutsch <i class="ion-chevron-down"></i></span>
+										<span>Administrator <i class="ion-chevron-down m-l-sm"></i></span>
 									</a>
 									<ul class="dropdown-menu border-t-n pull-right animated fadeInRight">
 										<li>
@@ -102,18 +119,29 @@
 			</section>
 
 			<section class="h-box stretch">
-				<aside class="bg-white box-shadow-xs aside-md hidden-print hidden-xs nav-show" id="sidebar">
+				<aside class="bg-white box-shadow-xs aside-md hidden-print hidden-xs nav-show animated fadeInLeft" id="sidebar">
 					<section class="v-box">
 						<section class="section-top">
 							<section class="w-f scrollable">
 								<nav class="nav-primary">
+									<div class="hidden-nav-xs">
+										<div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Search</div>
+
+										<div class="padder">
+											<form method="get" class="search-form">
+												<button type="submit" class="search-button"><i class="ion ion-ios-search"></i></button>
+												<input type="text" placeholder="Search..." class="form-control search-input" />
+											</form>
+										</div>
+									</div>
+
 									<div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Navigation</div>
 
 									<ul class="nav nav-main" data-ride="collapse">
 										<li class="active">
-											<a href="index.html" class="auto">
+											<a href="dashboard.html" class="auto">
 												<i class="ion ion-grid"></i>
-												<span>Übersicht</span>
+												<span>Dashboard</span>
 											</a>
 										</li>
 

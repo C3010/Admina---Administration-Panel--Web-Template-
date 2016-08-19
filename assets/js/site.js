@@ -13,9 +13,19 @@ var Site = function() {
 	        position: 'right'
 	    });
 
-		$('.tooltip').tooltipster({
+		$('.tooltip-bottom').tooltipster({
 	        theme: 'tooltipster-theme',
 	        position: 'bottom'
+	    });
+
+		$('.tooltip-top').tooltipster({
+	        theme: 'tooltipster-theme',
+	        position: 'top'
+	    });
+
+		$('.tooltip-left').tooltipster({
+	        theme: 'tooltipster-theme',
+	        position: 'left'
 	    });
 
 		$(document).on('click', '[data-toggle^="class"]', function(event) {

@@ -162,6 +162,14 @@ a:hover {
 	margin-top: 13px;
 }
 
+.m-l-sm {
+	margin-left: 5px;
+}
+
+.m-r-sm {
+	margin-right: 5px;
+}
+
 .padder {
     padding-left: 15px;
     padding-right: 15px;
@@ -212,6 +220,10 @@ nav .text-sm {
 	font-size: 21px;
 	width: 25px;
 	vertical-align: middle;
+}
+
+.nav-primary > ul.nav-main > li > a > .pull-right {
+	line-height: 20px;
 }
 
 .bg-white .nav-primary > ul.nav-main > li > a {
@@ -280,7 +292,7 @@ nav .text-sm {
 }
 
 .nav > li > a span {
-	font-size: 11px;
+	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -391,6 +403,94 @@ nav .text-sm {
 
 .nav-small-icon {
 	font-size: 10px !important;
+}
+
+.tooltipster-theme {
+	border-color: #f1f1f1;
+	color: #636363;
+}
+
+.form-control {
+    height: inherit;
+
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+
+	border-color: #e7e7e7;
+	padding: 9px;
+}
+
+.form-control:hover:not([disabled]),
+.form-control:active:not([disabled]),
+.form-control:focus:not([disabled]) {
+	border-color: #3747a4 !important;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.search-form {
+    height: 100%;
+	width: 100%
+	margin: 0;
+
+	position: relative;
+}
+
+.search-input {
+	height: 100%;
+	width: 100%;
+
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 55px 10px 15px;
+	color: #a4a4a4;
+	background: #fff;
+
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+
+	border-bottom: 2px solid #8a97e4;
+
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	transition: all .4s;
+}
+
+.search-input:hover,
+.search-input:active,
+.search-input:focus {
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+
+	border-color: #3747a4 !important;
+}
+
+.search-button {
+	position: absolute;
+
+	background: none !important;
+	border: none !important;
+
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+
+	height: 100%;
+	right: 15px;
+
+	color: #bfbfbf;
+	font-size: 20px;
+
+	vertical-align: middle;
 }
 
 @media print {
@@ -615,6 +715,6 @@ nav .text-sm {
 	}
 
 	.p-2 {
-		padding: 10px;
+		padding: 15px;
 	}
 }

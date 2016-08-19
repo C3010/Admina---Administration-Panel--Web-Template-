@@ -1,8 +1,8 @@
 /**
- * @copyright 2016 Can Designs
- * @name 	Admina
- * @author 	http://candesigns.de
- * @version	1.0
+ * @copyright 	2016 Can Designs
+ * @name 		Admina
+ * @author 		http://candesigns.de
+ * @version		1.1
  */
 var Site = function() {
 	this.run = function() {
