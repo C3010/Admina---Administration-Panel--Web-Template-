@@ -5,7 +5,7 @@ This is a modern responsive administration panel template (currently only with l
 
 ### Version
 ----
-1.0
+1.1
 
 ### Installation
 ----
