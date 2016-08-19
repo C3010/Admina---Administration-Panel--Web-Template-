@@ -24,6 +24,7 @@ $ git clone [https://github.com/C3010/Admina---Administration-Panel--Web-Templat
 ---
 
 ![Screen](http://image.prntscr.com/image/23b47ceaf45f4bf5b272ac67487ef559.png)
+![Screen](http://image.prntscr.com/image/7d65906a91cc42f3b9114d4fa3e44387.png)
 
 ### Used
 ----
