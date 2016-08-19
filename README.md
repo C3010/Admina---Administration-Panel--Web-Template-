@@ -18,6 +18,7 @@ $ git clone [https://github.com/C3010/Admina---Administration-Panel--Web-Templat
 ----
 
 * Login
+* Blank page
 
 ### Screenshot
 ---
