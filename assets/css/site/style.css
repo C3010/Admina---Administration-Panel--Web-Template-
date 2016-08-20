@@ -564,6 +564,7 @@ nav .text-sm {
 
 	.h-box.stretch {
 		height: 100%;
+		position: relative;
 	}
 
 	.h-box {
@@ -590,6 +591,7 @@ nav .text-sm {
 		display: table-cell;
 		vertical-align: top;
 		height: 100%;
+		position: relative;
 		float: none;
 	}
 
@@ -625,6 +627,7 @@ nav .text-sm {
 
 	.v-box.flex > section {
 		display: table-row;
+		position: relative;
 		height: 100%;
 	}
 
